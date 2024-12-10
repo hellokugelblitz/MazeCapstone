@@ -140,7 +140,7 @@ const Canvas = () => {
     step();
   };
 
-  // Placeholder for additional algorithms
+  // prim algorithm makes cool empty ish mazes with stick like walls, it looks a lot like kruskas
   const primAlgorithm = (context, width, height, cellSize) => {
 
     // start by creating a grid where each cell is initially unvisited.
